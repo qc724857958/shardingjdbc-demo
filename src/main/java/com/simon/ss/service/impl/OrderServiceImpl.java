@@ -54,6 +54,8 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper,Order> implements 
                 Wrappers.<OrderItem>lambdaQuery().eq(OrderItem::getOrderId,orderId)));
 
         System.out.println("test git");
+
+        System.out.println("test git");
         return orderDto;
     }
 
